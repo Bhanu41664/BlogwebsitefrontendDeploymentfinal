@@ -1,0 +1,9 @@
+.single{
+    display: flex;
+    max-width: 1320px;
+    margin: auto;
+}
+
+@media screen and (max-width: 700px){
+    
+}
