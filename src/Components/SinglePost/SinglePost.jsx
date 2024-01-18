@@ -66,7 +66,7 @@ function SinglePost() {
           <h1 className="singlePostTitle">
             {post.title}
           
-            {post.username === user ?.username &&(
+            {post.username === user.username &&(
               <div className="singlePostEdit">
             <i className="singlePostIcon fa-solid fa-pen-to-square" onClick={()=>setUpdateMode(true)}></i>
             <i className="singlePostIcon fa-solid fa-trash" onClick={handleDelete} ></i>
